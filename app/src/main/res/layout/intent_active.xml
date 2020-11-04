@@ -6,14 +6,68 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/textViewEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textSize="50sp"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textProdust"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/costs_products_day"
+            android:textColor="#000000"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/infoProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:shadowColor="#053A35"
+            android:text="0"
+            android:textColor="#009688"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textPetrol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/costs_petrol_day"
+            android:textColor="#020202"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/infoOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#009688"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textOther"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/other_cost_day"
+            android:textColor="#121212"
+            android:textSize="36sp" />
+
+        <TextView
+            android:id="@+id/infoPetrol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="#009688"
+            android:textSize="26sp" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

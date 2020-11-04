@@ -1,5 +1,13 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">My Cost</string>
     <string name="button">Enter</string>
-    <string name="entercosts">Please enter day costs</string>
+    <string name="entercosts">Please enter costs</string>
+    <string name="choose_type_of_costs">Choose type of costs</string>
+    <string name="products">Products</string>
+    <string name="petrol">Petrol</string>
+    <string name="other">Other</string>
+    <string name="costs_products_day">Costs products day</string>
+    <string name="costs_petrol_day">Costs petrol day</string>
+    <string name="other_cost_day">Other cost day</string>
+    <string name="valutes"> rub</string>
 </resources>

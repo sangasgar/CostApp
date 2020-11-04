@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Мое приложение</string>
+    <string name="app_name">Мои расходы</string>
     <string name="button">Отправить</string>
-    <string name="entercosts">Введите дневной расход</string>
+    <string name="entercosts">Введите расходы в рублях</string>
+    <string name="choose_type_of_costs">Введите тип расхода</string>
+    <string name="products">Продукты</string>
+    <string name="other">Другое</string>
+    <string name="petrol">Бензин</string>
+    <string name="costs_products_day">Затраты на продукты</string>
+    <string name="costs_petrol_day">Затраты на бензин</string>
+    <string name="other_cost_day">Другие затраты</string>
+    <string name="valutes"> руб.</string>
 </resources>
