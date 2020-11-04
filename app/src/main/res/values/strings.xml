@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="button">Enter</string>
-    <string name="entercosts">enterCosts</string>
+    <string name="entercosts">Please enter day costs</string>
 </resources>

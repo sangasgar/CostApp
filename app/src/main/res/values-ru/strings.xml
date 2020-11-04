@@ -2,5 +2,5 @@
 <resources>
     <string name="app_name">Мое приложение</string>
     <string name="button">Отправить</string>
-    <string name="entercosts">enterCosts</string>
+    <string name="entercosts">Введите дневной расход</string>
 </resources>
