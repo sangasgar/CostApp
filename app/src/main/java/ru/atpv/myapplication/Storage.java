@@ -11,7 +11,7 @@ public class Storage {
         productCost = 0;
         otherCost = 0;
     }
-    public static Storage Singleton () {
+    private static Storage Singleton () {
         synchronized (ob) {
             if (INSTANCE == null) {
                 INSTANCE = new Storage();
